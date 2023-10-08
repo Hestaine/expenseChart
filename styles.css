@@ -19,7 +19,7 @@
         display: block;
         height: 100%;
         width: 375px;
-        margin: 1rem 0 0 3rem;
+        margin: 2rem 0 0 3rem;
     }
     .balance{
         display: flex;
@@ -27,7 +27,7 @@
         padding: 1rem 1.3rem 0.8rem 1.3rem;
         gap: 11rem;
         border-radius: 10px;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
     .baltext{
         color: white;
@@ -169,8 +169,8 @@
         color: var(--Dark-brown);
     }
     .estih5{
-        font-size: 14px;
-        width: 19vw;
+        font-size: 12px;
+        width: 21vw;
         color: var(--Medium-brown);
     }
     .estimatetext2{
