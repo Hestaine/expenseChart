@@ -12,199 +12,200 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: var(--Cream);
-    padding-right: 2rem;
+@media (max-width: 244px){
+    body{
+        background-color: var(--Cream);
+    }
+    .parent{
+        display: block;
+        height: 100%;
+        width: 375px;
+        margin: 5rem 0 0 3rem;
+    }
+    .balance{
+        display: flex;
+        background-color: var(--Soft-red);
+        padding: 1rem 1.3rem 0.8rem 1.3rem;
+        gap: 11rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .baltext{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        font-size: 18px;
+    }
+    img{
+        width: 3.8rem;
+    }
+    .values{
+        background-color: white;
+        display: block;
+        padding: 1.5rem 1.3rem;
+        border-radius: 10px;
+    }
+    .valuesh2{
+        font-size: 1.7rem;
+        color: var(--Dark-brown);
+        margin-bottom: 1rem;
+    }
+    .allchart{
+        display: flex;
+        gap: 0.6rem;
+        margin-bottom: 1.5rem;
+        height: 35vh;
+        align-items: end;
+    }
+    .mon{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .monchart{
+        background-color: var(--Soft-red);
+        height: 8vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .tue{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .tuechart{
+        background-color: var(--Soft-red);
+        height: 15vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .wed{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .wedchart{
+        background-color: var(--Cyan);
+        height: 24vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .thu{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .thuchart{
+        background-color: var(--Soft-red);
+        height: 13vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .fri{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .frichart{
+        background-color: var(--Soft-red);
+        height: 9vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .sat{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .satchart{
+        background-color: var(--Soft-red);
+        height: 19vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .sun{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 2.5rem;
+        text-align: center;
+        color: var(--Medium-brown);
+    }
+    .sunchart{
+        background-color: var(--Soft-red);
+        height: 10vh;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    hr{
+        background-color: var(--Medium-brown);
+        height: 2px;
+        margin-bottom: 1.5rem;
+    }
+    .monthestimate{
+        display: flex;
+        gap: 8.3rem;
+    }
+    .estimatetext1{
+        font-size: 20px;
+        color: var(--Dark-brown);
+    }
+    .estih5{
+        font-size: 14px;
+        width: 15vw;
+        color: var(--Medium-brown);
+    }
+    .estimatetext2{
+        text-align: right;
+        font-size: 12px;
+        color: var(--Dark-brown);
+    }
+    .chartvalue{
+        background-color: var(--Dark-brown);
+        color: white;
+        height: 1.5rem;
+        width: 8vw;
+        padding-top: 3px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+    .chart:hover{
+        opacity: 0.7;
+    }
+    .hide{
+        display: none;
+    }
+    .attribution { 
+        font-size: 0.8rem; 
+        text-align: center; 
+        margin-left: 2rem;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+        text-decoration: none; 
+    }
 }
-.parent{
-    display: block;
-    height: 100%;
-    width: 375px;
-    margin: 6.5rem 0 0 3rem;
-}
-.balance{
-    display: flex;
-    background-color: var(--Soft-red);
-    padding: 1rem 1.3rem 0.8rem 1.3rem;
-    gap: 11rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-}
-.baltext{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-    font-size: 18px;
-}
-img{
-    width: 3.8rem;
-}
-.values{
-    background-color: white;
-    display: block;
-    padding: 1.5rem 1.3rem;
-    border-radius: 10px;
-}
-.valuesh2{
-    font-size: 1.7rem;
-    color: var(--Dark-brown);
-    margin-bottom: 1rem;
-}
-.allchart{
-    display: flex;
-    gap: 0.6rem;
-    margin-bottom: 1.5rem;
-    height: 35vh;
-    align-items: end;
-}
-.mon{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.monchart{
-    background-color: var(--Soft-red);
-    height: 8vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.tue{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.tuechart{
-    background-color: var(--Soft-red);
-    height: 15vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.wed{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.wedchart{
-    background-color: var(--Cyan);
-    height: 24vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.thu{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.thuchart{
-    background-color: var(--Soft-red);
-    height: 13vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.fri{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.frichart{
-    background-color: var(--Soft-red);
-    height: 9vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.sat{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.satchart{
-    background-color: var(--Soft-red);
-    height: 19vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.sun{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 2.5rem;
-    text-align: center;
-    color: var(--Medium-brown);
-}
-.sunchart{
-    background-color: var(--Soft-red);
-    height: 10vh;
-    border-radius: 3px;
-    cursor: pointer;
-}
-hr{
-    background-color: var(--Medium-brown);
-    height: 2px;
-    margin-bottom: 1.5rem;
-}
-.monthestimate{
-    display: flex;
-    gap: 8.3rem;
-}
-.estimatetext1{
-    font-size: 20px;
-    color: var(--Dark-brown);
-}
-.estih5{
-    font-size: 14px;
-    width: 15vw;
-    color: var(--Medium-brown);
-}
-.estimatetext2{
-    text-align: right;
-    font-size: 12px;
-    color: var(--Dark-brown);
-}
-.chartvalue{
-    background-color: var(--Dark-brown);
-    color: white;
-    height: 1.5rem;
-    width: 8vw;
-    padding-top: 3px;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 4px;
-}
-.chart:hover{
-    opacity: 0.7;
-}
-.hide{
-    display: none;
-}
-.attribution { 
-    font-size: 0.8rem; 
-    text-align: center; 
-    margin-left: 2rem;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-    text-decoration: none; 
-}
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .parent{
     margin-top: 7rem;
     margin-left: 30rem;
@@ -252,4 +253,4 @@ hr{
     font-size: 15px;
     border-radius: 4px;
 }
-}
+} */
