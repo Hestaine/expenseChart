@@ -12,7 +12,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media (min-width: 244px){
     body{
         background-color: var(--Cream);
     }
@@ -20,7 +19,7 @@
         display: block;
         height: 100%;
         width: 375px;
-        margin: 5rem 0 0 3rem;
+        margin: 1rem 0 0 3rem;
     }
     .balance{
         display: flex;
@@ -171,7 +170,7 @@
     }
     .estih5{
         font-size: 14px;
-        width: 15vw;
+        width: 19vw;
         color: var(--Medium-brown);
     }
     .estimatetext2{
@@ -198,14 +197,14 @@
     .attribution { 
         font-size: 0.8rem; 
         text-align: center; 
-        margin-left: 2rem;
+        margin-left: 7rem;
     }
     .attribution a { 
         color: hsl(228, 45%, 44%);
         text-decoration: none; 
     }
-}
-/* @media (min-width: 900px) {
+
+@media (min-width: 900px) {
   .parent{
     margin-top: 7rem;
     margin-left: 30rem;
@@ -253,4 +252,4 @@
     font-size: 15px;
     border-radius: 4px;
 }
-} */
+}
