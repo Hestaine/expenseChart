@@ -14,12 +14,13 @@
 }
 body{
     background-color: var(--Cream);
+    padding-right: 2rem;
 }
 .parent{
     display: block;
     height: 100%;
     width: 375px;
-    margin: 8rem 0 0 2rem;
+    margin: 6.5rem 0 0 3rem;
 }
 .balance{
     display: flex;
@@ -197,7 +198,7 @@ hr{
 .attribution { 
     font-size: 0.8rem; 
     text-align: center; 
-    margin: 1rem auto;
+    margin-left: 2rem;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
