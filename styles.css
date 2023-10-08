@@ -170,7 +170,7 @@
     }
     .estih5{
         font-size: 14px;
-        width: 15vw;
+        width: 21vw;
         color: var(--Medium-brown);
     }
     .estimatetext2{
@@ -182,7 +182,7 @@
         background-color: var(--Dark-brown);
         color: white;
         height: 1.5rem;
-        width: 8vw;
+        width: 14vw;
         padding-top: 3px;
         text-align: center;
         font-size: 15px;
