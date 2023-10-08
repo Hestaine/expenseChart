@@ -19,7 +19,7 @@ body{
     display: block;
     height: 100%;
     width: 375px;
-    margin: 5rem 0 0 7rem;
+    margin: 8rem 0 0 2rem;
 }
 .balance{
     display: flex;
@@ -195,8 +195,9 @@ hr{
     display: none;
 }
 .attribution { 
-    font-size: 0.8rem; text-align: center; 
-    margin-top: 1rem;
+    font-size: 0.8rem; 
+    text-align: center; 
+    margin: 1rem auto;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
