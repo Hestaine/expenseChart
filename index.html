@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Expenses chart component</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <div class="parent">
+      <div class="balance">
+        <div class="baltext">
+          <h5>My balance</h5>
+          <h2>$921.48</h2>
+          </div>
+          <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="values">
+        <h2 class="valuesh2">Spending - Last 7 days</h2>
+        <div class="allchart">
+          <div class="mon">
+            <h5 class="chartvalue chartvalue--1 hide" data-chart="1">$17.45</h5>
+            <div class="monchart chart"></div>
+            <h4>mon</h4>
+          </div>
+          <div class="tue">
+            <h5 class="chartvalue  chartvalue--2 hide" data-chart="2">$34.91</h5>
+            <div class="tuechart chart"></div>
+            <h4>tue</h4>
+          </div>
+          <div class="wed">
+            <h5 class="chartvalue hide chartvalue--3" data-chart="3">$52.36</h5>
+            <div class="wedchart chart"></div>
+            <h4>wed</h4>
+          </div>
+          <div class="thu">
+            <h5 class="chartvalue hide chartvalue--4" data-chart="4">$31.07</h5>
+            <div class="thuchart chart"></div>
+            <h4>thu</h4>
+          </div>
+          <div class="fri">
+            <h5 class="chartvalue hide chartvalue--5" data-chart="5">$23.39</h5>
+            <div class="frichart chart"></div>
+            <h4>fri</h4>
+          </div>
+          <div class="sat">
+            <h5 class="chartvalue hide chartvalue--6" data-chart="6">$43.28</h5>
+            <div class="satchart chart"></div>
+            <h4>sat</h4>
+          </div>
+          <div class="sun">
+            <h5 class="chartvalue hide chartvalue--7" data-chart="7">$25.48</h5>
+            <div class="sunchart chart"></div>
+            <h4>sun </h4>
+          </div>
+        </div>
+        <hr>
+        <div class="monthestimate">
+          <div class="estimatetext1">
+            <h5 class="estih5">Total this month</h5>
+            <h2>$478.33</h2>
+          </div>
+          <div class="estimatetext2">
+            <h2>+2.4%</h2>
+            <h5 class="estih5">from last month</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="
+wa.link/q1a2nu">Hestaine</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
